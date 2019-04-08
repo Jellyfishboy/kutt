@@ -4,8 +4,8 @@
   "description": "Modern URL shortener.",
   "main": "./server/server.js",
   "engines": {
-    "node": "7.0.0",
-    "npm": "3.10.8"
+    "node": "10.3.0",
+    "npm": "6.x"
   },
   "scripts": {
     "test": "mocha --require babel-core/register ./client/**/__test__/*.js",
