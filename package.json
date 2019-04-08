@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Modern URL shortener.",
   "main": "./server/server.js",
+  "engines": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  },
   "scripts": {
     "test": "mocha --require babel-core/register ./client/**/__test__/*.js",
     "dev": "node ./server/server.js",
