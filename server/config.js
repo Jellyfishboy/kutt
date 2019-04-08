@@ -31,9 +31,9 @@ module.exports = {
     Your email host details to use to send verification emails.
     More info on http://nodemailer.com/
   */
-  MAIL_HOST: process.env.MAIL_HOST,
-  MAIL_PORT: process.env.MAIL_PORT,
+  MAIL_HOST: 'smtp.sendgrid.com',
+  MAIL_PORT: 587,
   MAIL_SECURE: true,
-  MAIL_USER: process.env.MAIL_USER,
-  MAIL_PASSWORD: process.env.MAIL_PASSWORD,
+  MAIL_USER: process.env.SENDGRID_USERNAME,
+  MAIL_PASSWORD: process.env.SENDGRID_PASSWORD,
 };
